@@ -21,7 +21,7 @@ export default function Ebook02() {
 
               <div className="flex flex-col gap-6 lg:flex-row lg:items-center">
                 <Image
-                  src="/ebooks2.webp"
+                  src="/arteebookgratuito.webp"
                   width={120}
                   height={199}
                   alt="E-book O Renascimento Financeiro"
