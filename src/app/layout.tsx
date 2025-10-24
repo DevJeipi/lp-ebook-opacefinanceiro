@@ -1,7 +1,7 @@
-import "./globals.css";
-import { Lato } from "next/font/google";
-import Script from "next/script";
 import { Metadata } from "next";
+import { Lato } from "next/font/google";
+import "./globals.css";
+import Script from "next/script";
 
 const lato = Lato({
   weight: ["400", "700"],
