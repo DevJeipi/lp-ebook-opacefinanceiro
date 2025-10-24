@@ -1,26 +1,36 @@
 @import "tailwindcss";
 
-:root {
-  --background: #ffffff;
-  --foreground: #171717;
+/****FONTS****/
+@font-face {
+  font-family: "Conquera";
+  src: url("/fonts/Conquera-Bold.woff2") format("woff2");
+  font-weight: 700;
+  font-style: normal;
+  font-display: swap;
 }
 
-@theme inline {
-  --color-background: var(--background);
-  --color-foreground: var(--foreground);
-  --font-sans: var(--font-geist-sans);
-  --font-mono: var(--font-geist-mono);
+@font-face {
+  font-family: "Conquera";
+  src: url("/fonts/Conquera-Medium.woff2") format("woff2");
+  font-weight: 500;
+  font-style: normal;
+  font-display: swap;
 }
 
-@media (prefers-color-scheme: dark) {
-  :root {
-    --background: #0a0a0a;
-    --foreground: #ededed;
-  }
-}
+@theme {
+  --breakpoint-xs: 384px;
+  --breakpoint-sm: 480px;
 
-body {
-  background: var(--background);
-  color: var(--foreground);
-  font-family: Arial, Helvetica, sans-serif;
+  --max-width-container: 87.5rem;
+
+  --font-heading: "Conquera", sans-serif;
+
+  --color-primary-black: #121212;
+  --color-primary-white: #f2f1f2;
+  --color-primary-blue: #142c43;
+  --color-secondary-blue: #2c4f70;
+  --color-blue-low-op: #dcdde1;
+  --color-primary-orange: #f05824;
+  --color-orange-op-zero: #f0582400;
+  --color-secondary-orange: #cb3233;
 }
