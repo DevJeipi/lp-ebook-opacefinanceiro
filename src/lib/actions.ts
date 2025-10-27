@@ -91,10 +91,7 @@ export async function submitForm(
     }
 
     // Define a URL de redirecionamento baseada na source
-    const redirectUrl =
-      source === "curso"
-        ? "https://www.udemy.com/course/curso-do-cheque-especial-a-independencia-financeira/" // https://pay.hotmart.com/E101190894V?checkoutMode=10
-        : "/recompensa";
+    const redirectUrl = "/recompensa";
 
     return {
       message: "Inscrição realizada! Você será redirecionado em breve.",
