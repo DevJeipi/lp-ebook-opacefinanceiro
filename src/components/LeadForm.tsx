@@ -1,7 +1,8 @@
 "use client";
 
 import { useEffect } from "react";
-import { useFormState, useFormStatus } from "react-dom";
+import { useActionState } from "react";
+import { useFormStatus } from "react-dom";
 import { submitForm } from "@/lib/actions";
 import Image from "next/image";
 import logo from "../../public/logomark-pacefinanceiro-removebg.webp";
@@ -21,7 +22,7 @@ function SubmitButton() {
 }
 
 export default function LeadForm() {
-  const [state, formAction] = useFormState(submitForm, {
+  const [state, formAction] = useActionState(submitForm, {
     message: null,
     errors: {},
     redirectUrl: null,
