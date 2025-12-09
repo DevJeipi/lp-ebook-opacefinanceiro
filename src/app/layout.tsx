@@ -12,7 +12,7 @@ const lato = Lato({
 });
 
 export const metadata: Metadata = {
-  title: "Ebook e Aula Gratuitas | O Pace Financeiro",
+  title: "Aula Gratuita | O Pace Financeiro",
 };
 
 export default function RootLayout({
