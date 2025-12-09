@@ -16,7 +16,7 @@ function SubmitButton() {
       disabled={pending}
       className="bg-primary-orange text-primary-white w-full rounded-sm p-6 text-2xl font-bold transition-all duration-300 hover:scale-102 focus:bg-transparent disabled:cursor-not-allowed disabled:bg-gray-500"
     >
-      {pending ? "Enviando..." : "Receber minhas recompensas"}
+      {pending ? "Enviando..." : "Quero minha aula gratuita agora!"}
     </button>
   );
 }
@@ -44,7 +44,7 @@ export default function LeadForm() {
           height={37}
         />
         <h2 className="text-primary-white text-center text-2xl font-bold">
-          Baixe agora seu e-book gratuito + aula exclusiva
+          Garanta sua Aula Exclusiva Gratuita Agora!
         </h2>
       </div>
       <form action={formAction} className="flex flex-col gap-4">
